@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Delicious Bites | Online Order</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{margin:0;font-family:Arial;background:#f4f4f4}
+nav{
+  background:#c0392b;color:white;
+  padding:12px 20px;
+  display:flex;justify-content:space-between;
+  position:sticky;top:0
+}
+nav a{color:white;text-decoration:none;margin-left:15px;font-weight:bold}
+.section-title{text-align:center;color:#c0392b;margin:30px 0}
+.menu{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;padding:20px
+}
+.card{
+  background:white;border-radius:10px;
+  box-shadow:0 4px 8px rgba(0,0,0,0.1);
+  overflow:hidden
+}
+.card img{width:100%;height:180px;object-fit:cover}
+.card-content{padding:15px}
+.price{color:green;font-weight:bold}
+button{
+  background:#27ae60;color:white;
+  border:none;padding:8px 12px;
+  border-radius:5px;cursor:pointer
+}
+button:hover{background:#219150}
+.veg{color:green;font-weight:bold}
+.nonveg{color:red;font-weight:bold}
+.cart,.payment{
+  background:white;margin:20px;
+  padding:20px;border-radius:10px
+}
+.cart-item{
+  display:flex;justify-content:space-between;
+  margin:8px 0
+}
+.qty-btn{background:#c0392b;padding:4px 8px}
+input,select{width:100%;padding:8px;margin:6px 0}
+footer{background:#222;color:white;text-align:center;padding:15px}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div>🍴 Delicious Bites</div>
+  <div>
+    <a href="#menu">Menu</a>
+    <a href="#cart">Cart</a>
+    <a href="#pay">Payment</a>
+  </div>
+</nav>
+
+<h2 class="section-title" id="menu">🍽️ Menu</h2>
+
+<section class="menu">
+
+<!-- PANEER TIKKA -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80">
+<div class="card-content">
+<h3>Paneer Tikka <span class="veg">(Veg)</span></h3>
+<p class="price">₹220</p>
+<button onclick="addItem('Paneer Tikka',220)">Add</button>
+</div>
+</div>
+
+<!-- CHICKEN LOLLIPOP -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1628294895950-9805252327bc?auto=format&fit=crop&w=800&q=80">
+<div class="card-content">
+<h3>Chicken Lollipop <span class="nonveg">(Non-Veg)</span></h3>
+<p class="price">₹280</p>
+<button onclick="addItem('Chicken Lollipop',280)">Add</button>
+</div>
+</div>
+
+<!-- CHICKEN BIRYANI -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1600628422019-2cf6b0c90d24?auto=format&fit=crop&w=800&q=80">
+<div class="card-content">
+<h3>Chicken Biryani <span class="nonveg">(Non-Veg)</span></h3>
+<p class="price">₹320</p>
+<button onclick="addItem('Chicken Biryani',320)">Add</button>
+</div>
+</div>
+
+<!-- GULAB JAMUN -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80">
+<div class="card-content">
+<h3>Gulab Jamun <span class="veg">(Veg)</span></h3>
+<p class="price">₹120</p>
+<button onclick="addItem('Gulab Jamun',120)">Add</button>
+</div>
+</div>
+
+</section>
+
+<!-- CART -->
+<div class="cart" id="cart">
+<h2>🛒 Cart</h2>
+<div id="cartItems"></div>
+<h3>Total: ₹<span id="total">0</span></h3>
+</div>
+
+<!-- PAYMENT -->
+<div class="payment" id="pay">
+<h2>💳 Payment</h2>
+<select>
+<option>Select Payment Method</option>
+<option>UPI</option>
+<option>Card</option>
+<option>Cash on Delivery</option>
+</select>
+<input placeholder="Name">
+<input placeholder="Mobile Number">
+<input placeholder="Address">
+<button style="width:100%" onclick="placeOrder()">Place Order</button>
+</div>
+
+<footer>
+© 2026 Delicious Bites | Complete Mini Project
+</footer>
+
+<script>
+let cart=[];
+function addItem(name,price){
+  let item=cart.find(i=>i.name===name);
+  if(item){item.qty++}
+  else{cart.push({name,price,qty:1})}
+  render();
+}
+function changeQty(i,v){
+  cart[i].qty+=v;
+  if(cart[i].qty<=0)cart.splice(i,1);
+  render();
+}
+function render(){
+  let c=document.getElementById("cartItems");
+  let total=0;c.innerHTML="";
+  cart.forEach((i,index)=>{
+    total+=i.price*i.qty;
+    c.innerHTML+=`
+    <div class="cart-item">
+      ${i.name} (₹${i.price})
+      <div>
+        <button class="qty-btn" onclick="changeQty(${index},-1)">−</button>
+        ${i.qty}
+        <button class="qty-btn" onclick="changeQty(${index},1)">+</button>
+      </div>
+    </div>`;
+  });
+  document.getElementById("total").innerText=total;
+}
+function placeOrder(){
+  if(cart.length==0){
+    alert("Cart is empty!");
+  }else{
+    alert("🎉 Order Placed Successfully!");
+    cart=[];render();
+  }
+}
+</script>
+
+</body>
+</html>
