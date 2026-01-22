@@ -1,0 +1,101 @@
+
+
+<html>
+    <head>
+        <title>IILM University Semester 3 result</title>
+    </head>
+    <img src="img.jpg" alt="IILM LOGO" height="200" width="100">
+    <h1 align="center"><u>IILM UNIVERSITY Greater Noida </u></h1>
+    <h4 align="center"><b>Plot No. 16-18 Knowledge park-2</h4></p>
+    <table border ="3" cellspacing ="3" cellpadding ="5" align="center" height ="350" width="1000" >
+        <caption><b>Btech Computer Science and Engineering(2023-2027)</b></caption>
+        <tr>
+        <th>Course Code</th>
+        <th>Course</th>
+        <th>Credit</th>
+        <th>Grade Obtained</th>
+        <th>Grade Point</th>
+        <th>Credit Point</th>
+        </tr>
+        <tr align="center">
+            <td>UCS2001</td>
+            <td>AI Fundamentals</td>
+            <td>4
+            </td>
+            <td>A</td>
+            <td>9</td>
+            <td>36</td>
+        </tr>
+        <tr align="center">
+            <td>UCS20012</td>
+            <td>Analysis and design of algorithms</td>
+            <td>6
+            </td>
+            <td>A+</td>
+            <td>10</td>
+            <td>60</td>
+        </tr>
+        <tr align="center">
+            <td>UCS2001</td>
+            <td>E-Commerce</td>
+            <td>4
+            </td>
+            <td>A+</td>
+            <td>10</td>
+            <td>40</td>
+        </tr>
+        <tr align="center">
+            <td>UCS2001</td>
+            <td>Logical Numeracy</td>
+            <td>1
+            </td>
+            <td>B</td>
+            <td>7</td>
+            <td>7</td>
+        </tr>
+        <tr align="center">
+            <td>UCS2001</td>
+            <td>Micro </td>
+            <td>4
+            </td>
+            <td>A+</td>
+            <td>10</td>
+            <td>40</td>
+        </tr>
+        <tr align="center">
+            <td>UCS2001</td>
+            <td>Minor Project</td>
+            <td>2
+            </td>
+            <td>A</td>
+            <td>9</td>
+            <td>18</td>
+        </tr>
+        <tr align="center">
+            <td>UCS2001</td>
+            <td>Organisation Behaviour</td>
+            <td>3
+            </td>
+            <td>A+</td>
+            <td>10</td>
+            <td>30</td>
+        </tr>
+        <tr align="center">
+            <td>UCS2001</td>
+            <td>Theory Of Computation</td>
+            <td>3
+            </td>
+            <td>B+</td>
+            <td>8</td>
+            <td>24</td>
+        </tr>
+    </table>
+    <h4 align="left">Total Credit Points             :245</h4>
+    <h4 align="left">Total Credits                   :245</h4>
+    <h4 align="left">Total Credit Obtained           :245</h4>
+    <h4 align="left">SGPA                            :9.42</h4>
+    <h4 align="left">Total Credit Earned             :26</h4>
+
+
+
+</html>
