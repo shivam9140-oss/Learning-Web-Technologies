@@ -1,0 +1,129 @@
+
+<!-- 1  day -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 85%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+            text-transform: uppercase;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+            cursor: pointer;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+        .logo {
+
+        }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Student Details</h2>
+
+<table>
+    <tr>
+        
+    </tr>
+    <tr>
+        <th>Serial No.</th>
+        <th>Name</th>
+        <th>Roll No.</th>
+        <th>Semester</th>
+        <th>Grade</th>
+        <th>Branch / Stream</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Aditya Sahani</td>
+        <td>CS-2341727</td>
+        <td>6</td>
+        <td>A</td>
+        <td>CSE (AI & ML)</td>
+    </tr>
+     <tr>
+        <td>2</td>
+        <td>Nikhil</td>
+        <td>CS-2341768</td>
+        <td>6</td>
+        <td>A</td>
+        <td>CSE (AI & ML)</td>
+    </tr>
+     <tr>
+        <td>3</td>
+        <td>Parshant</td>
+        <td>CS-2341751</td>
+        <td>6</td>
+        <td>A</td>
+        <td>CSE (AI & ML)</td>
+    </tr>
+     <tr>
+        <td>4</td>
+        <td>Mudit</td>
+        <td>CS-2341718</td>
+        <td>6</td>
+        <td>A</td>
+        <td>CSE (AI & ML)</td>
+    </tr> 
+    <tr>
+        <td>5</td>
+        <td>Nitish Kumar Singh</td>
+        <td>CS-2341726</td>
+        <td>6</td>
+        <td>A</td>
+        <td>CSE (AI & ML)</td>
+    </tr>
+     <tr>
+        <td>6</td>
+        <td>Priyanshu</td>
+        <td>CS-23417xx</td>
+        <td>6</td>
+        <td>A</td>
+        <td>CSE (AI & ML)</td>
+    </tr>
+
+</table>
+<br><br>
+<a href="https://iilm.ac.in/about/" target="_blank">
+    <img src="IILM logo.png" class="logo" alt="Click Here"
+    
+</a>
+
+</body>
+</html>
+
