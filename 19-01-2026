@@ -1,0 +1,72 @@
+
+<html>
+  <head>
+    <title>   My Website </title>
+  </head>
+  
+  <body>
+    <p> This is my <b> paragraph </b> for today </p>
+    
+    <p> <b> This is bold </b> </p> 
+    
+    <p> <i> Hi </i> </p>
+    <p> <u> Hello </u> </p>
+    
+    <p> I am <u> studying </u>  in <b> IILM University, </b> located in  <i> Greater Noida </i>  </p>
+    <ol> <!--  this are attributes used in ol tags- type = "A"/ "a"/ "I" / "i" -->
+      <li> CSK 💛 </li>
+      <li> MI 💙 </li>
+      <li> RCB ❤️ </li>
+      <li> KKR  </li> 
+      <li> DC  </li> 
+      <li> SRH  </li> 
+    </ol>
+  
+     <ul> <!--  type - circle/disc/square/none -->
+      <li> <b> CSK 💛 </b> </li>
+      <li> MI 💙 </li>
+      <li> RCB ❤️ </li>
+      <li> KKR  </li> 
+      <li> DC  </li> 
+      <li> SRH  </li> 
+    </ul>
+    
+     <ol start="6"> <!-- start with 6th index -->
+      <li> CSK 💛 </li>
+      <li> MI 💙 </li>
+    </ol>
+    
+    <ol type="A" start="6"> <!-- start with 6th alphabet index -->
+      <li> CSK 💛 </li>
+      <li> MI 💙 </li> 
+    </ol>
+    <ol type="i" start="0"> <!--for rome start -->
+      <li> CSK 💛 </li>
+      <li> MI 💙 </li> 
+    </ol>
+    
+       <ul type="cicrle"> <!--  type - circle/disc/square/none -->
+      <li> <b> CSK 💛 </b> </li>
+      <li> MI 💙 </li>
+    </ul>
+    
+    <ul type="disc"> <!--  type - circle/disc/square/none -->
+      <li> <b> CSK 💛 </b> </li>
+      <li> MI 💙 </li>
+    </ul> 
+    <ul type= "square"> <!--  type - circle/disc/square/none -->
+      <li> <b> CSK 💛 </b> </li>
+      <li> MI 💙 </li>
+    </ul>
+    <!--image tag have multiple attributes -->
+    <img src="https://images.unsplash.com/photo-1766366467962-685c0c081b70?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njg3OTY0NTN8&ixlib=rb-4.1.0&q=85" height='520' width='520' />
+    <br/>
+    <a href='https://github.com/adityasahani001' >
+      My GitHub Account </a>
+      <br/>
+    <a href='https://www.linkedin.com/in/aditya-sahani-0955b02ab' >
+      My LinkedIn Account </a>
+  </body>
+  
+  
+</html>
