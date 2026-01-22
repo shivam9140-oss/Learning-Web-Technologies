@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table border="1" cellspacing="0" cellpadding="5"> 
+        <caption><b>SEMESTER 6 MARKSHEET 3CSE1</b></caption>
+      <tr> 
+        <th rowspan="2" bgcolor="grey">Name</th> 
+        <th colspan="8" bgcolor="grey" align="center">Marks</th> 
+        <th rowspan="2" bgcolor="grey">Grade</th> 
+      </tr> 
+     <tr> 
+       <th bgcolor="lightgrey">Web Technologies</th> 
+       <th bgcolor="lightgrey" >Compiler Design</th>
+       <th bgcolor="lightgrey">Software Engineering</th> 
+       <th bgcolor="lightgrey">Campus to Cooporate</th> 
+       <th bgcolor="lightgrey">SDN</th> 
+       <th bgcolor="lightgrey">Deep Learning</th> 
+       <th bgcolor="lightgrey">Arithmetical and Logical Ability</th> 
+       <th bgcolor="lightgrey">DSA w Python</th> 
+     </tr> 
+     <tr align="center"> 
+       <td>Yash</td> 
+       <td>90</td> 
+       <td>90</td> 
+       <td>94</td>
+       <td>94</td> 
+       <td>94</td> 
+       <td>94</td> 
+       <td>94</td> 
+       <td>94</td> 
+       <td>A+</td> 
+      </tr> 
+      <tr align="center"> 
+        <td>Isha</td> 
+        <td>78</td> 
+        <td>88</td>
+        <td>88</td>
+        <td>88</td>
+        <td>88</td>
+        <td>88</td>
+        <td>88</td>
+        <td>88</td> 
+        <td>B+</td> 
+      </tr> 
+      <tr align="center"> 
+        <td>Sumit</td> 
+        <td>98</td> 
+        <td>90</td>
+        <td>99</td>
+        <td>97</td>
+        <td>95</td>
+        <td>98</td>
+        <td>99</td> 
+        <td>99</td>
+        <td>A+</td> 
+      </tr> 
+      <tr align="center"> 
+        <td>Shivam</td> 
+        <td>65</td> 
+        <td>75</td>
+        <td>88</td>
+        <td>48</td>
+        <td>88</td>
+        <td>78</td>
+        <td>58</td>
+        <td>88</td> 
+        <td>C</td> 
+      </tr> 
+      <tr align="center"> 
+        <td>Anik</td> 
+        <td>28</td> 
+        <td>48</td>
+        <td>88</td>
+        <td>48</td>
+        <td>88</td>
+        <td>78</td>
+        <td>58</td>
+        <td>88</td> 
+        <td>C</td> 
+      </tr> 
+      <tr align="center"> 
+        <td>Aditya</td> 
+        <td>28</td> 
+        <td>48</td>
+        <td>88</td>
+        <td>48</td>
+        <td>88</td>
+        <td>78</td>
+        <td>58</td>
+        <td>88</td> 
+        <td>C</td> 
+      </tr> 
+      <tr align="center"> 
+        <td>Monu</td> 
+        <td>28</td> 
+        <td>48</td>
+        <td>88</td>
+        <td>48</td>
+        <td>88</td>
+        <td>78</td>
+        <td>58</td>
+        <td>88</td> 
+        <td>C</td> 
+      </tr> 
+      <tr align="center"> 
+        <td>Raju</td> 
+        <td>28</td> 
+        <td>48</td>
+        <td>88</td>
+        <td>48</td>
+        <td>88</td>
+        <td>78</td>
+        <td>58</td>
+        <td>88</td> 
+        <td>C</td> 
+      </tr> 
+      <tr align="center"> 
+        <td>Karishma</td> 
+        <td>28</td> 
+        <td>48</td>
+        <td>88</td>
+        <td>48</td>
+        <td>88</td>
+        <td>78</td>
+        <td>58</td>
+        <td>88</td> 
+        <td>C</td> 
+      </tr> 
+    </table>
+    
+</body>
+</html>
