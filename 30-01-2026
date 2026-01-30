@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <title> My Web Page </title>
+  </head>
+  
+  <body>
+    <table border="1" cellspacing="0">
+      <caption> Nested Table </caption>
+      <tr>
+        <th colspan="2"> Outer table </th>
+      </tr>
+      
+      <tr>
+        <td> My First Row - 1st cell Data from Outer Table </td>
+        <td> My First Row - 2nd cell Data from Outer Table </td>
+      </tr>
+      
+      <tr>
+        <td> My Second row - 1st cell Data from Outer Table </td>
+        <td> My Second row - 2nd cell Data from Outer Table </td>
+      </tr>
+      
+       <tr>
+        <td> My third row - 1st cell Data from Outer Table </td>
+        <td> 
+            <table border="1" cellspacing="0">
+              <tr> <th> My Inner Table </th> </tr>
+              <tr>
+                <td> I am from Inner Table </td>
+              </tr>
+            </table>
+          
+            <table border="1" cellspacing="0">
+              <tr> <th> My Inner Table </th> </tr>
+              <tr>
+                <td> I am from Inner Table </td>
+              </tr>
+            </table>
+        </td>
+      </tr>
+      
+      <tr>
+        <td> I am testing </td>
+        <td> I am just liking today's class </td>
+      </tr>
+    </table>
+    
+    <table border="1" cellspacing="0">
+      <thead> 
+        <tr> 
+          <th> Name </th> 
+          <th> Roll No </th> 
+        </tr>
+      </thead>
+      <tbody>
+        <tr> 
+          <td> Rahul </td>
+          <td>  001 </td>
+        </tr>
+      </tbody>
+      <tfoot> 
+        <tr>
+          <th colspan="2">  Students of B.Tech, IILM</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+  
+  
+</html>
