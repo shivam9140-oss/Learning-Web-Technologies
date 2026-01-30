@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodeSpark 2026</title>
+</head>
+<body>
+
+    <h1>Welcome to CodeSpark 2026</h1>
+
+    <p><i>A Tech Event for B.Tech 3rd Year Students</i></p>
+
+    <p> Organized by <b>IILM University</b>, <u>Greater Noida</u>
+    </p>
+
+    <hr>
+
+    <h2>Event Highlights</h2>
+
+    <ol type="I">
+        <li>Coding Competition</li>
+        <li>Debugging Challenge</li>
+        <li>Tech Quiz</li>
+        <li>Project Showcase</li>
+    </ol>
+
+    <h2>Participation Benefits</h2>
+
+    <ul>
+        <li>Certificates for all participants</li>
+        <li>Exciting prizes for winners</li>
+        <li>Networking with industry experts</li>
+    </ul>
+
+    <hr>
+
+      <captain align="center">Event Schedule</captain>
+
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th>Time</th>
+            <th>Activity</th>
+            <th>Venue</th>
+        </tr>
+        <tr>
+            <td>10:00 AM</td>
+            <td>Coding Competition</td>
+            <td>Lab 1</td>
+        </tr>
+        <tr>
+            <td>12:00 PM</td>
+            <td>Debugging Challenge</td>
+            <td>Lab 2</td>
+        </tr>
+        <tr>
+            <td>02:00 PM</td>
+            <td>Tech Quiz</td>
+            <td>Seminar Hall</td>
+        </tr>
+        <tr>
+            <td>04:00 PM</td>
+            <td>Project Showcase</td>
+            <td>Auditorium</td>
+        </tr>
+    </table>
+    <br><br>
+  <br><br>
+  <br><br>
+  <br><br>
+  <br><br>
+  
+    <p>
+        Visit our official website:
+       <a href="https://iilm.ac.in/"> 
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeC9vyMQcY3Q9HnbfNE4HLFdzuiv27G5PLTA&s" width="100">
+    </p>
+
+</body>
+</html>
